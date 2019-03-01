@@ -7,7 +7,7 @@
 #### 软件架构
 1. 前端：javaex
 2. 后端：ssm
-3. 数据库：sql server 2012以上
-4. 编译器：eclipse
+3. 数据库：Mysql
+4. 编译器：eclipse/IDEA
 5. JDK：1.8
 6. tomcat：tomcat8
