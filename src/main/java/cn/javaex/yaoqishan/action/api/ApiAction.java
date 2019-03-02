@@ -45,9 +45,7 @@ public class ApiAction {
 	 */
 	@RequestMapping("slide.json")
 	@ResponseBody
-	public Result slide(
-			HttpServletRequest request,
-			@RequestParam(value="apiId") String apiId) {
+	public Result slide( HttpServletRequest request, @RequestParam(value="apiId") String apiId) {
 		
 		List<Map<String, Object>> list = slideProfileInfoService.mapListByApiId(apiId);
 
