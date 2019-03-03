@@ -59,9 +59,7 @@ public class ApiAction {
 	 */
 	@RequestMapping("get_video_info.json")
 	@ResponseBody
-	public Result getVideoInfo(
-			HttpServletRequest request,
-			@RequestParam(value="videoId") String videoId) {
+	public Result getVideoInfo( HttpServletRequest request, @RequestParam(value="videoId") String videoId) {
 		
 		VideoInfo videoInfo = videoInfoService.selectById(videoId);
 		
